@@ -30,9 +30,13 @@ We can see some patterns in it. We are keepin multiplying 2 to some value.
 
 Also, we see that we are reusing some number. In the picture , we can see that the longest line of the previouse square becomes smallest line in the current square.
 
-The logest line of current square is sum of longest line in (i-1) and (i-2).
+The longest line of current square is sum of longest line in (i-1) and (i-2).
 
-We found the equation!
+We found the equation! We will save the longest line in the dp array.
+
+When we found K's longest line, multiply 2 and (K-1) multiply 2 and sum of it will be the answer.
+
+Don't forget to make dp[0] = 1 for smallest line of first square!
 
 ## Where can I get more help, if I need it?
 
